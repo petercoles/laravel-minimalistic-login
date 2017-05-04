@@ -1,0 +1,27 @@
+{
+  "name": "petercoles/laravel-minimalistic-login",
+  "type": "library",
+  "description": "A minimalistic login for Laravel projects that don't need a full registration and authentication system",
+  "keywords": ["Authentication", "Login", "Laravel"],
+  "homepage": "https://github.com/petercoles/laravel-minimalistic-login",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Peter Coles",
+      "email": "peterdcoles@gmail.com",
+      "homepage": "http://petercoles.com"
+    }
+  ],
+    "support": {
+        "issues": "https://github.com/petercoles/laravel-minimalistic-login/issues"
+    },
+  "require": {
+    "php": ">=7.0",
+    "laravel/framework": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "PeterColes\\LaravelMinimalisticLogin\\": "src/"
+    }
+  }
+}
